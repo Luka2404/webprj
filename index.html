@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><a class="a-b-2" href="#">TRANSPORTING</a></div>
+        <nav class="nav-1">
+            <ul>
+                <li><a class="a-b" href="#1">Home</a></li>
+                <li><a class="a-b" href="#2">Search</a></li>
+                <li><a class="a-b" href="#3">My Ads</a></li>
+                <li><a class="a-b" href="#4">About</a></li>
+                <li><a class="a-b" href="pages/index-2.html">Sign In</a></li>
+                <li><a class="a-b" href="pages/index.html">Login</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Rest of the HTML content remains the same -->
+    <section id="1" class="hero">
+        <h1><a href="#" class="a-b-1">Find Your Dream Car</a></h1>
+    </section>
+
+
+    <section class="search-bar">
+        <select>
+            <option>Brand</option>
+            <option>Toyota</option>
+            <option>Ford</option>
+            <option>BMW</option>
+        </select>
+        <input type="text" placeholder="Model">
+        <input type="number" placeholder="Min Price">
+        <input type="number" placeholder="Max Price">
+        <button>Search</button>
+    </section>
+
+    <section id="2" class="listing-section">
+        <div class="listing-card">
+            <a href="pages/cars.html">
+                <img src="images/1.jpg" alt="Car 1">
+                <div class="content">
+                    <h3>Ford Mustang</h3>
+                    <p>Year: 2019 | Price: $30,000</p>
+                </div>
+            </a>
+        </div>
+        <div class="listing-card">
+            <a href="pages/cars.html">
+                <img src="images/2.jpg" alt="Car 2">
+                <div class="content">
+                    <h3>Chevrolet Camaro</h3>
+                    <p>Year: 2020 | Price: $35,000</p>
+                </div>
+            </a>
+        </div>
+        <div class="listing-card">
+            <a href="pages/cars.html">
+                <img src="images/3.jpg" alt="Car 3">
+                <div class="content">
+                    <h3>BMW M3</h3>
+                    <p>Year: 2021 | Price: $60,000</p>
+                </div>
+            </a>
+        </div>
+        <div class="listing-card">
+            <a href="pages/cars.html">
+                <img src="images/4.jpg" alt="Car 4">
+                <div class="content">
+                    <h3>Audi A4</h3>
+                    <p>Year: 2018 | Price: $25,000</p>
+                </div>
+            </a>
+        </div>
+        <div class="listing-card">
+            <a href="pages/cars.html">
+                <img src="images/5.jpg" alt="Car 5">
+                <div class="content">
+                    <h3>Toyota Corolla</h3>
+                    <p>Year: 2017 | Price: $15,000</p>
+                </div>
+            </a>
+        </div>
+        <div class="listing-card">
+            <a href="pages/cars.html">
+                <img src="images/6.jpg" alt="Car 6">
+                <div class="content">
+                    <h3>Honda Accord</h3>
+                    <p>Year: 2019 | Price: $20,000</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="3" class="search-by-brand">
+        <h2>Search by Brand</h2>
+        <ul class="brand-list">
+            <li><a href="#2">Acura</a></li>
+            <li><a href="#2">Audi</a></li>
+            <li><a href="#2">BMW</a></li>
+            <li><a href="#2">Cadillac</a></li>
+            <li><a href="#2">Chevrolet</a></li>
+            <li><a href="#2">Dodge</a></li>
+            <li><a href="#2">Ford</a></li>
+            <li><a href="#2">Honda</a></li>
+            <li><a href="#2">Jeep</a></li>
+            <li><a href="#2">Land Rover</a></li>
+            <li><a href="#2">Lexus</a></li>
+            <li><a href="#2">Mazda</a></li>
+            <li><a href="#2">Subaru</a></li>
+            <li><a href="#2">Tesla</a></li>
+            <li><a href="#2">Toyota</a></li>
+        </ul>
+    </section>
+
+    <footer id="4" class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>My Account</h4>
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Order History</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
