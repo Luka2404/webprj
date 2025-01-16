@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .error-code {
+        font-size: 90px;
+    }
+    .error-message {
+        font-size: 28px;
+    }
+    .description {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .error-code {
+        font-size: 70px;
+    }
+    .error-message {
+        font-size: 22px;
+    }
+    .description {
+        font-size: 14px;
+    }
+}
