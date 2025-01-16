@@ -41,7 +41,9 @@
         .hamburger-menu {
             display: flex;
         }
-    
+        .hero{
+            padding-top: 400px;
+        }
         .nav-1 {
             display: none;
             flex-direction: column;
@@ -56,6 +58,7 @@
     
         .nav-1.active {
             display: flex;
+            z-index: 1;
         }
     
         nav ul {
